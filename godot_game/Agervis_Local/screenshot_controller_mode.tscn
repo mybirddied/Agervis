@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://d1xoh46r0vlef" path="res://screenshot_controller_mode.gd" id="1"]
+
+[node name="ScreenshotController" type="Node2D" unique_id=616848161]
+script = ExtResource("1")

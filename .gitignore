@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+server/node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+server/dist/
+build/
+builds/
+out/
+release/
+*.asar
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+*.pem
+*.key
+*.p12
+*.keystore
+
+# Godot generated
+.godot/
+godot_game/.godot/
+godot_game/imported/
+godot_game/shader_cache/
+godot_game/**/.godot/
+godot_game/**/imported/
+godot_game/**/shader_cache/
+*.translation
+godot_game/**/builds/
+
+# Godot compile logs (leftover debug output)
+*.err
+*.out
+godot_game/**/compile_*.txt
+godot_game/**/final_*.txt
+godot_game/**/godot_*.txt
+
+# Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+server/data/
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

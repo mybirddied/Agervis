@@ -1,0 +1,33 @@
+{
+  "server": {
+    "port": 10813,
+    "host": "0.0.0.0",
+    "environment": "development"
+  },
+  "database": {
+    "filename": "agervis.db",
+    "backupDir": "backups",
+    "autoBackupInterval": 3600000
+  },
+  "websocket": {
+    "perMessageDeflate": false,
+    "maxPayload": 104857600,
+    "heartbeatTimeout": 30000,
+    "heartbeatCheckInterval": 5000
+  },
+  "gameLogic": {
+    "tickRate": 60,
+    "maxEntities": 10000,
+    "entityUpdateBatchSize": 100
+  },
+  "rateLimit": {
+    "enabled": true,
+    "windowMs": 60000,
+    "maxRequests": 1000,
+    "maxConnectionsPerIp": 10
+  },
+  "logging": {
+    "level": "info",
+    "format": "json"
+  }
+}
